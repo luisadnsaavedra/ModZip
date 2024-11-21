@@ -15,6 +15,7 @@ This is done with the hopes that many of these files are present within multiple
 In order to run the storage saving we need to download the example app and store it using the storage saving method by running:
 
 * `python3 store_and_rebuild_apps.py`
+
 The default values for the arguments market `-m` and IPAS folder `-ipas` do not need to be changed to run the example
 `python3 store_and_rebuild_apps.py -m webarchive -ipas IPAS` would be the complete call
 
@@ -33,7 +34,7 @@ At this point the app is checked against the original SHA256 hash to confirm it 
 
 
 # Dependencies
-`pip install -r requirements.txt` or manually:
+`pip install -r requirements.txt`, or manually:
 - tqdm (`pip install tqdm`)
 - requests (`pip install requests`)
 
